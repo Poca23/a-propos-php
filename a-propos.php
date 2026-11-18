@@ -1,13 +1,7 @@
 <?php require_once 'inc/fonctions.php';
 
-// Petit exercice : mettez ces variables dans
-// "inc/fonctions.php", dans une fonction "aPropos"
-// Appelez la fonction "aPropos" ici.
-// Inspirez-vous de index.php
-$titre = 'A propos de nous';
-$css = [
-    'global.css'
-];
+[$titre, $css] = aPropos();
+
 require_once 'partiel/header.php';
 ?>
 
